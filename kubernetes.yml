@@ -31,7 +31,7 @@ spec:
         image: qemux/qemu
         env:
         - name: BOOT
-          value: "ubuntu"
+          value: "alpine"
         - name: DISK_SIZE
           value: "512G"
         ports:
